@@ -19,7 +19,7 @@ Zang
 * Protractor and Selinium based tests for end to end testing.
 
 ### Getting started
-1. Install Node.js (We currently use 0.12.7 due package change in yeoman)
+1. Install Node.js (We currently use v4.2.2 due package change in yeoman)
   1. Use nvm installer [follow this link](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-with-nvm-node-version-manager-on-a-vps) 
 2. Run the following commands in the terminal
   1. ```node -v```
@@ -27,7 +27,7 @@ Zang
   3. Make sure both the above commands were valid and printed out node and npm versions.
 3. Set user account as owner of the /usr/local
   ```sudo chown -R $USER /usr/local```
-4. Install MongoDB (We use 2.4.1 so find the specific installer or install the specific verison through homebrew. DO NOT USE 1.)
+4. Install MongoDB (We use 3.0+ so find the specific installer or install the specific verison through homebrew. DO NOT USE 1.)
   1. Use Homebrew ```brew install mongodb```
   2. Or, use Installer http://www.mongodb.org/downloads
   3. Or, install specific version using homebrew-versions, e.g. ```brew install Mongodb24``` (at writing, 2.4.11)
