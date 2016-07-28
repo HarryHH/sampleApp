@@ -178,7 +178,7 @@
     "build": "babel-node --eval \"require('./tools/build')().catch(err => console.error(err.stack))\"",
     "deploy": "babel-node --eval \"require('./tools/deploy')().catch(err => console.error(err.stack))\"",
     "serve": "babel-node --eval \"require('./tools/serve')().catch(err => console.error(err.stack))\"",
-    "start": "node server.js"
+    "start": "babel-node --eval \"require('./tools/start')().catch(err => console.error(err.stack))\"",
     "serveTkSvr": "babel-node --eval \"require('./tools/serveTkSvr')().catch(err => console.error(err.stack))\"",
     "startTkSvr": "babel-node --eval \"require('./tools/startTkSvr')().catch(err => console.error(err.stack))\""
   }
