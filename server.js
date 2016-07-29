@@ -14052,6 +14052,7 @@ module.exports =
   var logger = __webpack_require__(1);
   exports.index = function (req, res) {
     Company.find(function (err, companies) {
+  
       if (err) {
         return handleError(res, err);
       }
